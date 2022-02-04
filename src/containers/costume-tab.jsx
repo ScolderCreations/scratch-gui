@@ -49,12 +49,12 @@ let messages = defineMessages({
         id: 'gui.costumeTab.addCostumeFromLibrary'
     },
     addBlankCostumeMsg: {
-        defaultMessage: 'Paint',
+        defaultMessage: 'Create',
         description: 'Button to add a blank costume in the editor tab',
         id: 'gui.costumeTab.addBlankCostume'
     },
     addSurpriseCostumeMsg: {
-        defaultMessage: 'Surprise',
+        defaultMessage: 'Random',
         description: 'Button to add a surprise costume in the editor tab',
         id: 'gui.costumeTab.addSurpriseCostume'
     },
