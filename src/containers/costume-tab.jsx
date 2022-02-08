@@ -307,10 +307,10 @@ class CostumeTab extends React.Component {
                 isRtl={isRtl}
                 items={costumeData}
                 selectedItemIndex={this.state.selectedCostumeIndex}
-                onDeleteClick={target && target.costumes && target.costumes.length > 1 ?
-                    this.handleDeleteCostume : null}
+                onDeleteClick={this.handleDuplicateCostume}
                 onDrop={this.handleDrop}
-                onDuplicateClick={this.handleDuplicateCostume}
+                onDuplicateClick={target && target.costumes && target.costumes.length > 1 ?
+                    this.handleDeleteCostume : null}
                 onExportClick={this.handleExportCostume}
                 onItemClick={this.handleSelectCostume}
             >
